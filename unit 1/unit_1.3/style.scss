@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+  color: darkslategray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cv {
+  max-width: 1000px;
+  margin: 50px auto 0 auto;
+  display: flex;
+}
+.content-block {
+  padding-right: 25px;
+  flex: 0 0 50%;
+  &__title {
+  }
+  &__description {
+    margin-bottom: 20px;
+  }
+  &__contact-info {
+    display: flex;
+  }
+}
+.contact-info {
+  flex: 0 0 50%;
+  &__mail {
+  }
+  &__image {
+    padding-left: 10px;
+    max-width: 25px;
+    max-height: 20px;
+  }
+}
+.image-block {
+  padding-left: 25px;
+}
